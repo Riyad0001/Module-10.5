@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>{{name}}</h1>
+    <h1>{{ y | join:"/" }}</h1>
+    <h1>{{ Date | date:"D d M Y" }}</h1>
+    <h1>{{20 | add:"5"}}</h1>
+    <h1>{{ home | capfirst }}</h1>
+    <h1>{{ x | cut:" " }}</h1>
+    <h1>{{ a | dictsort:"name" }}</h1>
+    <h1>
+      {{
+      <p>This <em>should be</em> fun!</p>
+      | escape}}
+    </h1>
+    <h1>{{ y | first }}</h1>
+    <h1>{{ y | last }}</h1>
+    <h1>{{ z | length }}</h1>
+    <h1>{{ y | linenumbers }}</h1>
+    <h1>{{ x | lower }}</h1>
+    <h1>{{ x | upper }}</h1>
+    <h1>{{ x | title }}</h1>
+    <h1>{{ y | random }}</h1>
+    <h1>{{ y | slice:":2" }}</h1>
+    <h1>{{ Date | time:"H:i" }}</h1>
+    <h1>{{ Date | timesince }}</h1>
+    <h1>{{ y | truncatechars:7 }}</h1>
+    <h1>{{ y | wordcount }}</h1>
+    <h1>{{ y | truncatewords:3 }}</h1>
+    <h1>{{y | striptags}}</h1>
+    <h1>{{name | make_list}}</h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+  </body>
+</html>
